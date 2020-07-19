@@ -1,0 +1,41 @@
+//Python if-statement with else and elif Refresher!
+//Remember that if-statements is a programming conditional statement that if it is true (1) then 
+//it will perform the following function(s) after the line
+
+
+//Ask the user to enter a number.  Determine if the number is an odd number  (divisible by 1).
+answer:
+number= int(input("Enter a number"))
+if (number % 1 == 0):
+ print (str(number) + ' is divisible by 1')
+
+
+//Now, determine if the number is not even (not divisible by 2)
+answer:
+number= int(input("Enter a number"))
+if (number % 2 != 0):
+ print (str(number) + ' is not divisible by 2 or odd')
+ 
+
+//An else statement can follow an if statement. The code in an else statement is executed if the expression in the if statement is false.
+answer:
+number= int(input("Enter a number"))
+if (number % 3 == 0):
+ print (str(number) + ' is divisible by 3')
+else:
+ print (str(number) + ' is NOT divisible by 3')
+
+
+//The command elif (else-if) can be used to make a series of if statements more efficient.  
+//As soon as one of the expressions is true, the other ones are skipped.  elif is short for 'else if'.
+//Ask the user to enter a State/Province name, and print out the capital of that state.  
+//Your code should handle at least 6 different inputs.  Use an if/elif/else structure.
+answer:
+state= str(input("enter the state/providence"))
+if (state == 'Wisconsin'):
+  print ('Madison')
+elif (state == 'Colorado'):
+  print('Denver')
+else:
+  print ('I do not know that one')
+  
